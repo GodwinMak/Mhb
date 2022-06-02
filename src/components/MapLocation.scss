@@ -1,0 +1,29 @@
+.map__container{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    top: 50%;
+    position: relative;
+    .location__container{
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        background-color: #f8f8f8;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        height: 50px;
+        border-radius: 10px;
+        margin: 20px;
+        .location{
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            left: 50%;
+            transform: translate(-50%, 0%);
+        }
+    }
+    .map{
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+}

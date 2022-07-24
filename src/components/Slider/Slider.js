@@ -50,7 +50,7 @@ const Slider = () => {
         <BtnSlider moveSlide = {prevSlide} direction = {'prev'}/>
         <div className="container-dots">
             {Array.from({length: 5}).map((item, index) => (
-                <div 
+                <div key={index}
                 onClick={() => moveDot(index + 1)}
                 className={slideIndex === index + 1 ? "dot active" : "dot"}
                 ></div>

@@ -41,7 +41,7 @@ const Navbar = () => {
                     <Link className=' nav-item active' to="slider" spy={true} smooth={true} offset={-100} duration={50}  onClick={closeMenu}>Home</Link>
                     <Link className=' nav-item active' to="about" spy={true} smooth={true} offset={-100} duration={50} onClick={closeMenu}>About Us</Link>
                     <Link className=' nav-item active' to="service" spy={true} smooth={true} offset={-100} duration={50} onClick={closeMenu}>Our Service</Link>
-                    <Link className='  nav-item active' to="gallery" spy={true} smooth={true} offset={-100} duration={50} onClick={closeMenu}>Gallery</Link>
+                    <Link className='  nav-item active' to="/gallery" spy={true} smooth={true} offset={-100} duration={50} onClick={closeMenu}>Gallery</Link>
                     <Link className='  nav-item active' to="contact" spy={true} smooth={true} offset={-100} duration={50} onClick={closeMenu}>Contact us</Link>
                 </ul>
             </nav>
